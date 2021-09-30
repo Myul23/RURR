@@ -1,5 +1,5 @@
 - CycleGAN을 이용한 Unpaired 근적외선 얼굴 이미지 생성 및 평가
-- Generation and Evaluation of Unpaired Near-Infrared Face Iamges Using CycleGAN
+- Generation and Evaluation of Unpaired Near-Infrared Face Images Using CycleGAN
 
 ---
 
