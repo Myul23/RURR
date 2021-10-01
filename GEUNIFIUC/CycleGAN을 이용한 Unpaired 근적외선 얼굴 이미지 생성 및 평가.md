@@ -8,7 +8,7 @@
 - 얼굴인식은 조명 변화에 따라 인식성능이 크게 좌우됨.
 - 근적외선 카메라로 촬영한 얼굴영상은 조명 변화에 둔감.
 
--> but, 근적외선 얼굴 이미지를 충분하게 확보하는 것이 어럽다.<br />
+-> but, 근적외선 얼굴 이미지를 충분하게 확보하는 것이 어렵다.<br />
 -> CycleGAN을 이용하여 양질의 근적외선 얼굴 이미지를 생성하자.
 
 <br />
@@ -120,8 +120,8 @@ Generator의 입력을 만들 때
   - 얼굴 랜드마크 검출 ```by One Millisecond Face Alignment with and Ensemble of Regression Trees```
   - 양쪽 눈의 위치를 찾아 그 위치를 기준으로 얼굴 정렬
 - 히스토그램 평활화 ```by Image enhancement by Histogram equalization```
-  - 얼굴 명도 대배 개선
-  - ```NIS -> F -> VIS```에만 이용
+  - 얼굴 명도 대비 개선
+  - ```VIS -> G -> NIR```에만 이용
 
 <img src="images/ficture2.JPG" style="display: block; margin: auto;" />
 
@@ -183,6 +183,8 @@ Cycle consistency 손실 개념
 <img src="images/PixelGAN_PatchGAN_GAN.JPG" style="display: block; margin: auto;" />
 
 <br />
+
+기존의 Cycle consistence는 pixel consistence에 가까웠는데 특징에 대한 cycle consistence를 계산하자.
 
 ```Perceptual 손실함수``` = Content loss + Adversarial loss
 
