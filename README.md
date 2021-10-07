@@ -4,6 +4,8 @@
 read, understand, and remember (plus run) thesis or dissertation
 ```
 
-|         short          | korean                                                       | english                                                                        |
-| :--------------------: | ------------------------------------------------------------ | ------------------------------------------------------------------------------ |
-| [GEUNIFIUC](GEUNIFIUC) | CycleGAN을 이용한 Unpaired 근적외선 얼굴 이미지 생성 및 평가 | Generation and Evaluation of Unpaired Near-Infrared Face Images Using CycleGAN |
+|           short            | explain                                                                                                                                            |
+| :------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [BN-ADNTRICS](BN-ADNTRICS) | Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift<br />- [원문](https://arxiv.org/abs/1502.03167)       |
+
+- *ndb* means [Deep-Learning-Paper-Review-and-Practice](https://github.com/ndb796/Deep-Learning-Paper-Review-and-Practice)
